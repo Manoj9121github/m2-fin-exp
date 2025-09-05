@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-export default function TransactionForm({ addTransaction }) {
+export default function   ({ addTransaction }) {
   const [type, setType] = useState("expense");
   const [amount, setAmount] = useState("");
   const [category, setCategory] = useState("");
